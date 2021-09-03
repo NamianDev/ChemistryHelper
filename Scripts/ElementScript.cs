@@ -1,13 +1,13 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 public class ElementScript : MonoBehaviour
 {
     public TextAsset txtAsset;
-
     public Text Name;
     public Text Body;
+    int ElementCount;
 
     int currentID = 1;
 
@@ -17,18 +17,9 @@ public class ElementScript : MonoBehaviour
         {
             return currentID;
         }
-
         set 
         {
-            if (value < 1)
-            {
-                currentID = 1;
-            }
-            else if (value > 18)
-            {
-                currentID = 18;
-            }
-            else
+            if (value >= 1 && value < ElementCount)
             {
                 currentID = value;
             }
@@ -37,9 +28,19 @@ public class ElementScript : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(this.name);
         txtAsset = (TextAsset)Resources.Load(("ElementsJson"), typeof(TextAsset));
 
+        for (int i = 1; ; i++)
+        {
+            string ElementChildrenJson = JsonHelper.GetJsonObject(txtAsset.text, i + "_Element"); //Спаршенный json
+
+            if(ElementChildrenJson == null || ElementChildrenJson == "")
+            {
+                ElementCount = i;
+             
+                break;
+            }
+        }
         ReadElement(1, txtAsset);
     }
 
@@ -94,11 +95,10 @@ public class ElementScript : MonoBehaviour
                 Oxide = "---";
                 break;
         } //Создание оксида
-
         if(CurrentID == 8)
         {
             Oxide = "---";
-        } //Кислородд не образует оксид
+        } //Кислород не образует оксид
 
         switch (ElementJson.Group)
         {
@@ -123,7 +123,6 @@ public class ElementScript : MonoBehaviour
         {
             LVS = "---";
         } //Водород не образует ЛВС
-
 
         switch (ElementJson.period)
         {
@@ -169,11 +168,7 @@ public class ElementScript : MonoBehaviour
         {
             Type = "Амфотерное вещество";
         }
-
-
-
           
-
         Name.text = "--" + ElementJson.Designation + "--\r\n" + ElementJson.Name;
 
         Body.text = "Порядковый номер:" + CurrentID
