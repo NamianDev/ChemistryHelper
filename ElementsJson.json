@@ -1,0 +1,176 @@
+﻿{
+    "1_Element": {
+        "Name": "Водород",
+        "Designation": "H",
+        "period": 1,
+        "Group": 7,
+        "Subgroup": "A",
+        "Atomic_mass": 1.00797,
+        "Amorphous": false
+    },
+    "2_Element": {
+        "Name": "Гелий",
+        "Designation": "He",
+        "period": 1,
+        "Group": 8,
+        "Subgroup": "A",
+        "Atomic_mass": 4.0026,
+        "Amorphous": false
+    },
+    "3_Element": {
+        "Name": "Литий",
+        "Designation": "Li",
+        "period": 2,
+        "Group": 1,
+        "Subgroup": "A",
+        "Atomic_mass": 6.939,
+        "Amorphous": false
+    },
+    "4_Element": {
+        "Name": "Бериллий",
+        "Designation": "Be",
+        "period": 2,
+        "Group": 2,
+        "Subgroup": "A",
+        "Atomic_mass": 9.0122,
+        "Amorphous": true
+    },
+    "5_Element": {
+        "Name": "Бор",
+        "Designation": "B",
+        "period": 2,
+        "Group": 3,
+        "Subgroup": "A",
+        "Atomic_mass": 10.811,
+        "Amorphous": false
+    },
+    "6_Element": {
+        "Name": "Углерод",
+        "Designation": "C",
+        "period": 2,
+        "Group": 4,
+        "Subgroup": "A",
+        "Atomic_mass": 12.01115,
+        "Amorphous": false
+    },
+    "7_Element": {
+        "Name": "Азот",
+        "Designation": "N",
+        "period": 2,
+        "Group": 5,
+        "Subgroup": "A",
+        "Atomic_mass": 14.0067,
+        "Amorphous": false
+    },
+    "8_Element": {
+        "Name": "Кислород",
+        "Designation": "O",
+        "period": 2,
+        "Group": 6,
+        "Subgroup": "A",
+        "Atomic_mass": 15.9994,
+        "Amorphous": false
+    },
+    "9_Element": {
+        "Name": "Фтор",
+        "Designation": "F",
+        "period": 2,
+        "Group": 7,
+        "Subgroup": "A",
+        "Atomic_mass": 18.9984,
+        "Amorphous": false
+    },
+    "10_Element": {
+        "Name": "Неон",
+        "Designation": "Ne",
+        "period": 2,
+        "Group": 8,
+        "Subgroup": "A",
+        "Atomic_mass": 20.183,
+        "Amorphous": false
+    },
+    "11_Element": {
+        "Name": "Натрий",
+        "Designation": "Na",
+        "period": 3,
+        "Group": 1,
+        "Subgroup": "A",
+        "Atomic_mass": 22.9898,
+        "Amorphous": false
+    },
+    "12_Element": {
+        "Name": "Магний",
+        "Designation": "Mg",
+        "period": 3,
+        "Group": 2,
+        "Subgroup": "A",
+        "Atomic_mass": 24.305,
+        "Amorphous": false
+    },
+    "13_Element": {
+        "Name": "Алюминий",
+        "Designation": "Al",
+        "period": 3,
+        "Group": 3,
+        "Subgroup": "A",
+        "Atomic_mass": 26.9815,
+        "Amorphous": true
+    },
+    "14_Element": {
+        "Name": "Кремний",
+        "Designation": "Si",
+        "period": 3,
+        "Group": 4,
+        "Subgroup": "A",
+        "Atomic_mass": 28.086,
+        "Amorphous": false
+    },
+    "15_Element": {
+        "Name": "Фосфор",
+        "Designation": "P",
+        "period": 3,
+        "Group": 5,
+        "Subgroup": "A",
+        "Atomic_mass": 30.9738,
+        "Amorphous": false
+    },
+    "16_Element": {
+        "Name": "Сера",
+        "Designation": "S",
+        "period": 3,
+        "Group": 6,
+        "Subgroup": "A",
+        "Atomic_mass": 32.064,
+        "Amorphous": false
+    },
+    "17_Element": {
+        "Name": "Хлор",
+        "Designation": "Cl",
+        "period": 3,
+        "Group": 7,
+        "Subgroup": "A",
+        "Atomic_mass": 35.453,
+        "Amorphous": false
+    },
+    "18_Element": {
+        "Name": "Аргон",
+        "Designation": "Ar",
+        "period": 3,
+        "Group": 8,
+        "Subgroup": "A",
+        "Atomic_mass": 39.948,
+        "Amorphous": false
+    }
+}
+/*
+    "1_Element": {
+        "Name":
+        "Designation":
+        "period":
+        "Group":
+        "Subgroup":
+        "Atomic_mass":
+        "Amorphous":
+    },
+
+*/
